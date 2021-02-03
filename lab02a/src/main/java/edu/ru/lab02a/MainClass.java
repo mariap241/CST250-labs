@@ -6,21 +6,23 @@
 package edu.ru.lab02a;
 
 public class MainClass {
+    
+    
     public static void main(String[] args){
-        int[] inputArray= {5,6,7,8,9};
-         
-       
+        int inputArray[]={5, 6, 7, 8};
+        
+        int outputIndex;
+        outputIndex  = mySearch(inputArray,8);
+        System.out.println(outputIndex);
     }
     public static int mySearch(int[] inputArray, int n){
         
         for (int i=0; i<inputArray.length; i++){       
-            if (inputArray[i] == 8){
+            if (inputArray[i] == n){
                 return i;
             }
         }
         return -1;
-        
-    
-    
+      
     }
 }   

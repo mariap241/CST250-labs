@@ -9,11 +9,11 @@ public class MainClass {
     
     
     public static void main(String[] args){
-        int inputArray[]={5, 6, 7, 8};
+        int inputArray[]={5, 6, 7, 8, 10, 3, 9};
         
         int outputIndex;
-        outputIndex  = mySearch(inputArray,8);
-        System.out.println(outputIndex);
+        outputIndex  = mySearch(inputArray,9);
+        System.out.println("Index: " +outputIndex);
     }
     public static int mySearch(int[] inputArray, int n){
         

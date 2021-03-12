@@ -9,7 +9,7 @@ public class MainClass {
         
         int ar2[]= mySort(ar1);
         
-        System.out.println("input array: "+ ar2[0]);
+        System.out.println("Input array: "+ ar2[0]);
     
      
     }

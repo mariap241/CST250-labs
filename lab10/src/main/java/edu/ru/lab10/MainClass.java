@@ -27,7 +27,7 @@ public class MainClass {
             myArray.contains(n);
             long end = System.nanoTime();
             long duration = end - start;
-            System.out.println("Array lookup took: " + duration + "nano seconds.");
+            System.out.println("Array lookup took: " + duration + " nano seconds.");
             
             
             
@@ -35,7 +35,7 @@ public class MainClass {
             myHashMap.containsKey(n);
             end = System.nanoTime();
             duration = end - start;
-            System.out.println("Hashmap lookup took: " + duration + "nando seconds.");
+            System.out.println("Hashmap lookup took: " + duration + " nando seconds.");
             
             
     }  
